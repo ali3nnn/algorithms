@@ -1,8 +1,16 @@
 <?php
+
 function cnpValidator($cnp) {
+
+}
+
+function checkLength($cnp) {
     if(strlen($cnp) != 13) {
         return 'invalid';
     }
+}
+
+function checkLastDigit($cnp) {
     
     $calc = array( 2 , 7 , 9 , 1 , 4 , 6 , 3 , 5 , 8 , 2 , 7 , 9 );
     $sum = 0;
@@ -33,6 +41,7 @@ function cnpValidator($cnp) {
     } else {
         return 'invaid';
     }
+    
 }
 
 
