@@ -4,6 +4,7 @@ Se verifica urmatoarele:
 * Daca are 13 caractere
 * Daca prima cifra este intre 0 si 9
 * Daca data nasterii nu este mai mare ca data curenta
+* Daca luna si ziua nasterii nu sunt > 12 si > numarul maxim de zile din luna
 * Daca numarul pentru judet este corect
 * Daca cifra de control este corecta
 
