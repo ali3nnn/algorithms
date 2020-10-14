@@ -1,6 +1,6 @@
 ## Validator de CNP
 
-Pentru verificare se verifica:
+Se verifica urmatoarele:
 * Daca are 13 caractere
 * Daca prima cifra este intre 0 si 9
 * Daca data nasterii nu este mai mare ca data curenta
